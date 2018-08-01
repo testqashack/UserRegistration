@@ -6,5 +6,5 @@ class User(models.Model):
     message = models.CharField(max_length=100)
 
     class Meta:
-        # Mention the name of the table
+        # Mention the name of the table from MySQL
         db_table = "user"
